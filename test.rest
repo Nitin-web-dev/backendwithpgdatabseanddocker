@@ -1,0 +1,21 @@
+###
+GET http://localhost:13000/api/check
+
+
+
+###
+GET http://localhost:13000/api/datafetch
+
+
+
+###
+POST http://localhost:13000/api/datainsert
+Content-Type: application/json
+
+{
+    "name": "sssssam",
+    "email": "sam@gmail.com"
+}
+
+###
+GET http://localhost:13000/api/dbcreation
